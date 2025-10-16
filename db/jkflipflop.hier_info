@@ -1,0 +1,14 @@
+|jkflipflop
+J => always0.IN0
+J => always0.IN0
+J => always0.IN0
+J => always0.IN0
+K => always0.IN1
+K => always0.IN1
+K => always0.IN1
+K => always0.IN1
+clk => Q~reg0.CLK
+reset => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
